@@ -1,0 +1,39 @@
+body {
+  background-color: #bb6e89;
+}
+
+h1 {
+  color: #f9f871;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: white;
+}
+
+span {
+  color: #505879;
+}
+
+section {
+  background-color: #e08376;
+}
+
+div:hover {
+  background-color: #5058792d;
+}
+
+.grid {
+  border-color: black;
+}
+
+.player-one {
+  background-color: #e8a661;
+}
+
+.player-two {
+  background-color: #2f4858;
+}

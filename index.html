@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,17 @@
     <meta name="description" content="Linda Anderssons Connect Four game">
     <title>Connect Four Game</title>
     <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/color.css">
+    <link rel="stylesheet" href="Style/typography.css">
     <script src="Script/script.js" defer></script>
 </head>
+
 <body>
     <h1>Connect Four the Game!</h1>
-    <h2>The current Player is: Player <span id="current-player">1</span></h2>
+    <h2>The current Player is: Player <span id="current-player">1</span><span id="showColor" class="player-one"></span></h2>
     <h3 id="result"></h3>
- 
-    <section class="grid"> 
+
+    <section class="grid">
         <div></div>
         <div></div>
         <div></div>
@@ -58,13 +62,14 @@
         <div></div>
         <div></div>
         <div></div>
-        <div class="taken"></div>
-        <div class="taken"></div>
-        <div class="taken"></div>
-        <div class="taken"></div>
-        <div class="taken"></div>
-        <div class="taken"></div>
-        <div class="taken"></div>
+        <div class="taken hidden"></div>
+        <div class="taken hidden"></div>
+        <div class="taken hidden"></div>
+        <div class="taken hidden"></div>
+        <div class="taken hidden"></div>
+        <div class="taken hidden"></div>
+        <div class="taken hidden"></div>
     </section>
 </body>
+
 </html>
