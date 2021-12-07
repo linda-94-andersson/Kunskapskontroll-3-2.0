@@ -1,0 +1,86 @@
+* {
+    margin: auto 0;
+    padding-inline-start: 0;
+}
+
+body {
+    background-color: #BB6E89;
+}
+
+h1, h2, h3 {
+    position: relative;
+    top: 0;
+    margin-top: 2em; 
+}
+
+h1 {
+    font-weight: 900; 
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    margin-left: 4em;
+    color: white;
+}
+
+h3 {
+    margin-left: 6em;
+    color: black;
+    font-weight: 700;
+}
+
+span {
+    color: #505879; 
+    font-weight: 900;
+}
+
+section {
+    position: absolute;
+    left: 0;
+    margin-top: 2em;
+    margin-left: 5em; 
+    background-color: #E08376;
+    
+}
+
+.grid {
+  border: 1px solid black;
+  height: 480px;
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 80px;
+  width: 80px;
+}
+
+.player-one {
+  background-color: #E8A661;
+  border-radius: 40px;
+}
+
+.player-two {
+  background-color: #BB6E89;
+  border-radius: 40px;
+}
+
+@media (max-width: 654px){
+    h1, h2, h3, section{
+        margin-left: 1em;
+    }
+
+    .grid{
+        height: 240px;
+        width: 280px;
+    }
+    .grid div{
+        height: 40px;
+        width: 40px;
+    }
+    .player-one, .player-two{
+        border-radius: 20px;
+    }
+}
