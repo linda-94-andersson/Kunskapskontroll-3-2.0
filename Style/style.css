@@ -4,8 +4,7 @@
 }
 
 h1,
-h2,
-h3 {
+h2 {
   position: relative;
   top: 0;
   margin-top: 2em;
@@ -24,6 +23,12 @@ h2 {
 
 h3 {
   margin-left: 6em;
+  padding: 3em;
+  border-radius: 1px;
+  border-style: solid;
+  position: fixed;
+  top: auto;
+  z-index: 3;
 }
 
 span {
@@ -41,15 +46,15 @@ div:hover {
   border-radius: 40px;
 }
 
-div.hidden {
-  display: none;
-}
-
 #showColor {
   display: inline-block;
   margin-left: 1em;
   height: 40px;
   width: 40px;
+}
+
+.hidden {
+  display: none;
 }
 
 .grid {
@@ -80,6 +85,11 @@ div.hidden {
   h3,
   section {
     margin-left: 1em;
+  }
+
+  #showColor {
+    height: 20px;
+    width: 20px;
   }
 
   .grid {
