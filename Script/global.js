@@ -2,6 +2,7 @@ const squares = document.querySelectorAll(".grid div");
 const result = document.querySelector("#result");
 const displayCurrentPlayer = document.querySelector("#current-player");
 const showColorDiv = document.querySelector("#showColor");
+const gridSection = document.querySelector(".grid");
 let currentPlayer = 1;
 
 const winninArrays = [

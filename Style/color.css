@@ -12,8 +12,8 @@ h2 {
 
 h3 {
   color: white;
-  background-color: #e8a661;
-  border-color: #2f4858;
+  background-color: #9c678d;
+  border-color: #f9f871;
 }
 
 span {
@@ -21,6 +21,10 @@ span {
 }
 
 section {
+  background-color: black;
+}
+
+div {
   background-color: #e08376;
 }
 
